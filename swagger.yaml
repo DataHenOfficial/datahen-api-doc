@@ -3803,11 +3803,13 @@ components:
           title: Standard Worker Count
           description: How many Standard workers are allocated to this scraper.
           example: 1
+          default: 1
         browser_worker_count:
           type: integer
           title: Browser Worker Count
           description: How many Browser workers are allocated ot this scarper.
           example: 0
+          default: 0
         disable_scheduler:
           type: boolean
           title: Disable Scheduler
