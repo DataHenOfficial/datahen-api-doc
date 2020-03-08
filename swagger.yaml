@@ -7,7 +7,7 @@ security:
 - httpBearer: []
 info:
   description: | 
-    API documentation on how to manage scrapers, jobs, variables, and exports on DataHen.
+    API documentation on how to manage scrapers, jobs, variables, exports, etc on DataHen.
     
     # Authentication Token
     
