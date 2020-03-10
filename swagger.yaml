@@ -1101,24 +1101,6 @@ paths:
           $ref: '#/components/responses/UnauthorizedError'
         422:
           $ref: '#/components/responses/UnprocessableEntity'
-  /global_pages/{gid}/failed_content:
-    get:
-      tags:
-      - Global Pages
-      summary: Show a Content of a failed Global Page
-      security:
-        - bearerAuth: []
-      parameters:
-        - $ref: '#/components/parameters/GID'
-      responses:
-        200:
-          $ref: '#/components/responses/PageContentSuccess'
-        400:
-          $ref: '#/components/responses/AuthTokenMissing'
-        401:
-          $ref: '#/components/responses/UnauthorizedError'
-        422:
-          $ref: '#/components/responses/UnprocessableEntity'
   /jobs/{id}/pages:
     post:
       tags:
