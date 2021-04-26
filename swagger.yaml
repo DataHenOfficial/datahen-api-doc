@@ -937,7 +937,7 @@ paths:
         - $ref: '#/components/parameters/ExporterName'
       responses:
         200:
-          $ref: '#/components/responses/ExportsSuccess'
+          $ref: '#/components/responses/ExportSuccess'
         400:
           $ref: '#/components/responses/AuthTokenMissing'
         401:
@@ -1058,7 +1058,7 @@ paths:
         - $ref: '#/components/parameters/ExporterName'
       responses:
         200:
-          $ref: '#/components/responses/ExportsSuccess'
+          $ref: '#/components/responses/ExportSuccess'
         400:
           $ref: '#/components/responses/AuthTokenMissing'
         401:
