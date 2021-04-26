@@ -68,7 +68,7 @@ info:
     X-Pagination-Total-Records: 1
     ```
 
-  version: "1.0.1"
+  version: "1.0.2"
   title: DataHen API Reference
   contact:
     email: services@datahen.com
