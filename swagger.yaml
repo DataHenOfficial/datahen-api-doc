@@ -4725,6 +4725,7 @@ components:
         fetching: 0
         fetching_failed: 0
         fetching_dequeue_failed: 0
+        refetch_failed: 0
         to_parse: 0
         parsing_started: 0
         parsing: 0
